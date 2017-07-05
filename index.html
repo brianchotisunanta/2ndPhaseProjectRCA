@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="movieNamesApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Movie Names</title>
+
+<!-- Google Fonts: Open Sans-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+<!-- Google Fonts: Ranchers -->
+<link href="https://fonts.googleapis.com/css?family=Ranchers" rel="stylesheet">
+
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="./stylesheets/styles.css">
+
+<!-- Animation CSS -->
+<link rel="stylesheet" href="./stylesheets/animations1.css">
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<!-- Angular CDN 1.5.7 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+
+</head>
+<body ng-controller="movieNamesController" ng-cloak>
+
+
+<!--Heading:-->
+<div class="movie-heading fadeIn">
+    <h1>Movies Now Playing</h1>
+</div>
+
+<!--Movie names-->
+<div class="col-md-12">
+  <ul class="movie-names text-center fadeIn">
+    <li ng-repeat="movie in movies | filterGenre: movieGenres: selected"> {{ movie.title }} </li>
+    <!--ng-repeat on list tag -->
+    <!-- Added filter here ; custom filter name = filterGenre with ng-model = movieGenres-->
+    <!--"movie in movies" {{ movie.title }}; movie = can be named whatever you want-->
+  </ul>
+</div>
+
+ <!-- | filter: {vote_average_filter:selected}  | filterGenre: movieGenres  | filterGenre: movieGenres: selected -->
+
+
+<!--Vote Average Dropdown menu:-->
+<div class="col-md-6 text-center vote-average fadeIn">
+    <h2>Vote Average</h2>
+    <select class="vote-average-dropdown" ng-model="selected">      <!-- selected = named whatever you want -->
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <!--I added 7-10: -->
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+    </select>
+</div>
+
+<!--Genre Dropdown menu-->
+<div class="col-md-6 text-center movie-genre fadeIn">
+    <h2>Genre</h2>
+    <select class="movie-genre-dropdown" ng-model="movieGenres">     <!-- movieGenres = named whatever you want -->
+        <option value=""></option>
+        <option value="28">Action</option>
+        <option value="12">Adventure</option>
+        <option value="16">Animation</option>
+        <option value="35">Comedy</option>
+        <option value="80">Crime</option>
+        <option value="99">Documentary</option>
+        <option value="18">Drama</option>
+        <option value="10751">Family</option>
+        <option value="14">Fantasy</option>
+        <option value="36">History</option>
+        <option value="27">Horror</option>
+        <option value="10402">Music</option>
+        <option value="9648">Mystery</option>
+        <option value="10749">Romance</option>
+        <option value="878">Science Fiction</option>
+        <option value="10770">TV Movie</option>
+        <option value="53">Thriller</option>
+        <option value="10752">War</option>
+        <option value="37">Western</option>
+        <!--This is why the genre names are matching with the movie; value = genres.id which is assigned a genre name-->
+    </select>
+</div>
+
+<!--Movie Content-->
+<div class="movies-body fadeIn">
+    <div class="col-md-3 movie-content" style="visibility: hidden;" ng-repeat="movie in movies | filterGenre: movieGenres: selected">
+        <img class="movie-posters" src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}" >
+        <h2 class="movie-titles text-center"> {{  movie.title }} </h2>
+        <p class="release-date text-center">Released on: {{ movie.release_date | date:'longDate' }} </p>
+        <p class="text-center"> {{ movie.overview }} </p>
+    </div>
+</div>
+
+<div class="footer text-center slideLeft">
+  <span class="text-center" style="padding-right: 195px;">Designed by Brian Chotisunanta</span>
+  <span class="pull-left" style="padding-left: 11px;"><strong style="color: #E74C3C"> Redwood Code Academy</strong>: 2nd Project</span>
+  <span class="pull-right" style="padding-right: 11px;">June 2017</span>
+</div>
+
+
+
+<script src="./environment.js"></script>
+
+<!--module-->
+<script src="./app.js"></script>
+
+<!--service-->
+<script src="./movieNamesService.js"></script>
+
+<!--controller-->
+<script src="./movieNamesController.js"></script>
+
+<!--filter (put this after the module = app.js, so that it loads-->
+<script src="./filterGenre.js"></script>
+
+<!-- animation1.js -->
+<script src="./animations1.js"></script>
+
+
+</body>
+</html>

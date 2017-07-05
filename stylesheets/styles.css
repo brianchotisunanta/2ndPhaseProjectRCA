@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Ranchers', cursive;*/
+  background-color: black;
+  color: white;
+  /*background-image: url("http://photos.cinematreasures.org/production/photos/38706/1331610624/large.jpg?1331610624");*/
+  /*background-repeat: repeat;*/
+  /*-ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: white;*/
+  /*color: #0084b4;*/
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-family: 'Ranchers', cursive;
+  color: yellow;
+}
+
+.movie-heading {
+  font-family: 'Ranchers', cursive;
+  text-align: center;
+  color: yellow;
+  font-size: 100px;
+}
+
+.movie-names {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    /*color: #0084b4;*/
+    color: yellow;
+    list-style-type: none;
+    margin: o auto;
+}
+
+.movie-content {
+  /*margin: 0 auto;*/
+  height: 871px;
+}
+
+.movie-posters {
+  width: 300px;
+  /*display and margin centers poster image*/
+  display: block;
+  margin: 0 auto;
+  /*height: 200px;*/
+}
+
+.release-date {
+  font-weight: bold;
+  color: yellow;
+}
+
+/*Dropdown with select and option tag*/
+.vote-average-dropdown {
+  width: 50%;
+  margin-bottom: 50px;
+  color: black;
+  background-color: yellow;
+  font-family: 'Ranchers', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.movie-genre-dropdown {
+  width: 50%;
+  margin-bottom: 50px;
+  color: black;
+  background-color: yellow;
+  font-family: 'Ranchers', cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer {
+  font-family: 'Ranchers', cursive;
+  font-size: 20px;
+  color: yellow;
+  border-top: solid yellow 5px;
+  margin-top: 5072px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/*This was for the bootstrap dropdown list (Did not use this!):  */
+
+/*.btn, .btn-default {
+    margin-top: 10px;
+    margin-left: 20px;
+}*/
+
+/*.dropdown {
+  position: relative;*/
+  /*overflow-y: scroll;*/       /*This is why the dropdown wasn't working...Fuck this shit*/
+  /*display:inline-block;
+}*/
+
+/*.btn-group>.btn:first-child {
+  margin-left: 120px;
+}*/
+
+/*.open>.dropdown-menu {
+  display: block;
+  margin-left: 123px;
+}*/

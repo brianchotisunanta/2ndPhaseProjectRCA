@@ -24,16 +24,18 @@
 #### • jQuery
 #### • AngularJS (Directives, Module, Controller, Service, Filter)
 #### • Google Fonts: Open Sans & Ranchers
-#### • Third Party Movie API
+#### • Third Party API
+#### • RESTful application
+#### • HTTP request/response
 
+### This is my second project at Redwood Code Academy.
 
-I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters.
+I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters, showcase what I've learned in the second phase of the bootcamp, focusing on front-end and back-end development.
 
-This is my second project at Redwood Code Academy that shows what I've learned in the second phase of the bootcamp, focusing on front-end and back-end development. The back-end part of the project was dealt mostly with using RESTful API's to request information about the movie object properties.
+The application was built using jQuery and AngularJS on the front-end. The back-end part of the project utilizes RESTful API's to request information from the movie database and return a response via JSON with the movie properties for each film.
 
 I designed two dropdown menus to filter the movie list by category or vote rating.
 
-The application was built using AngularJS as the client-side framework.
-I signed up for an API key from TheMovieDatabase.com to access the API that I needed to request the movies that were currently playing in the movie theaters. The API was delivered in a JSON file file format, consisting of an array of objects, with various movie properties, such as movie poster images, vote ratings, movie description, etc...
+I signed up for an API key from TheMovieDatabase.com to access the API that I needed to request the movies that are currently playing in the movie theaters. The API was delivered in a JSON file format, consisting of an array of objects, with various movie properties, such as movie poster images, vote ratings, movie description, etc...
 
 I also added a CSS animations file to add css animations to my web app.

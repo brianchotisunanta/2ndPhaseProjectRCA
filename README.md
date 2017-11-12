@@ -17,14 +17,14 @@
 ![mnp ss8](https://user-images.githubusercontent.com/24735848/32697356-7dd4b50e-c743-11e7-99b3-d7dea57fe1dd.png)
 
 ## Technologies:
-## • HTML5
-## CSS3
-## JavaScript
-## Bootstrap
-## jQuery
-## AngularJS (Directives, Module, Controller, Service, Filter)
-## Google Fonts: Open Sans & Ranchers
-## Third Party Movie API
+#### • HTML5
+#### • CSS3
+#### • JavaScript
+#### • Bootstrap
+#### • jQuery
+#### • AngularJS (Directives, Module, Controller, Service, Filter)
+#### • Google Fonts: Open Sans & Ranchers
+#### • Third Party Movie API
 
 
 I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters.

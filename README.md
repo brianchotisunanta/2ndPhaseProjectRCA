@@ -12,17 +12,17 @@ I also added a **_CSS animations_** to the web app for visual effects.
 
 ## Web Technologies used:
 ### **Front-end:**
-**_HTML5_**
-**_CSS3_**
-**_JavaScript_**
-**_Bootstrap_**
-**_jQuery_**
-**_AngularJS_ (Directives, Module, Controller, Service, Filter)**
-**_Google Fonts:_ Open Sans & Ranchers**
-### **Back-end:_**
-**_Third Party API_**
-**_RESTful application_**
-**_HTTP request/response_**
+* **_HTML5_**
+* **_CSS3_**
+* **_JavaScript_**
+* **_Bootstrap_**
+* **_jQuery_**
+* **_AngularJS_ (Directives, Module, Controller, Service, Filter)**
+* **_Google Fonts:_ Open Sans & Ranchers**
+### **Back-end:**
+* **_Third Party API_**
+* **_RESTful application_**
+* **_HTTP request/response_**
 
 # Screenshots:
 

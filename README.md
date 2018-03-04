@@ -24,7 +24,9 @@ I also added a **_CSS animations_** to the web app for visual effects.
 * **_RESTful application_**
 * **_HTTP request/response_**
 
-# Screenshots:
+
+
+# Screenshots: :smile: :smile: :smile:
 
 ![mnp ss1](https://user-images.githubusercontent.com/24735848/32697349-7d084082-c743-11e7-8c09-635c8f51e4b9.png)
 

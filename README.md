@@ -11,20 +11,20 @@ I signed up for an API key from **TheMovieDatabase.com** to access the **API** t
 I also added a **_CSS animations_** to the web app for visual effects.
 
 ## Web Technologies used:
-###**Front-end:**
-**HTML5**
-**CSS3**
-**JavaScript**
-**Bootstrap**
-**jQuery**
-**AngularJS (Directives, Module, Controller, Service, Filter)**
-**Google Fonts: Open Sans & Ranchers**
-###**Back-end:**
-**Third Party API**
-**RESTful application**
-**HTTP request/response**
+### **Front-end:**
+**_HTML5_**
+**_CSS3_**
+**_JavaScript_**
+**_Bootstrap_**
+**_jQuery_**
+**_AngularJS_ (Directives, Module, Controller, Service, Filter)**
+**_Google Fonts:_ Open Sans & Ranchers**
+### **Back-end:_**
+**_Third Party API_**
+**_RESTful application_**
+**_HTTP request/response_**
 
-#Screenshots:
+# Screenshots:
 
 ![mnp ss1](https://user-images.githubusercontent.com/24735848/32697349-7d084082-c743-11e7-8c09-635c8f51e4b9.png)
 

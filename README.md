@@ -27,14 +27,13 @@ I also added a **_CSS animations_** to the web app for visual effects.
 
 
 ## What does my web app do:
-My app displays a list of movies that are currently playing in movie theaters.
+My app makes a **_request_** to the **movie API** and the **API** sends a **_response_** with a JSON containing the **movie properties**, which displays a list of movies that are currently playing in movie theaters.
 
-Each movie is displayed with its poster artwork, movie name, movie released date, and movie description.
+Each movie is displayed with the following **movie properties:** _poster artwork, movie name, movie released date, and movie description._
 
-You are able to filter the list of movies based on vote average and genre categories.
+You are able to **filter** the list of movies with the dropdown menus, based on **vote average** and **genre** categories.
 
-As you filter based on vote average and/or genre, movies are either added or deleted from the list that is displayed
-
+As you filter based on **vote average** and/or **genre**, movies are either **_added_** or **_deleted_** from the movie list.
 
 
 # Screenshots: :smile: :smile: :smile:

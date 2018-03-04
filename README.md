@@ -8,7 +8,7 @@ I designed two dropdown menus to filter the movie list by category or vote ratin
 
 I signed up for an API key from **TheMovieDatabase.com** to access the **API** that I needed to request the movies that are currently playing in the movie theaters. The **API** was delivered in a **JSON**, consisting of an array of objects, with various movie properties, such as **_movie poster images, vote ratings, movie description, etc..._**
 
-I also added a **_CSS animations_** to the web app for visual effects.
+I also added **_CSS animations_** to the web app for visual effects.
 
 ## Web Technologies used:
 ### **Front-end:**

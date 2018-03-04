@@ -1,4 +1,4 @@
-# Movies Now Playing
+# Movies Now Playing :smiley:
 
 I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters, focusing on **_front-end_** and **_back-end development_**.
 

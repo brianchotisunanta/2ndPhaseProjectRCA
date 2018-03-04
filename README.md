@@ -1,5 +1,31 @@
 # Movies Now Playing
 
+I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters, focusing on **_front-end_** and **_back-end development_**.
+
+The application was built using **_jQuery_** and **_AngularJS_** on the **_front-end_**. The **_back-end_** part of the project utilizes **_RESTful API's_** to **request** information from the movie database and return a **response** via **_JSON_** with the movie properties for each film.
+
+I designed two dropdown menus to filter the movie list by category or vote rating.
+
+I signed up for an API key from **TheMovieDatabase.com** to access the **API** that I needed to request the movies that are currently playing in the movie theaters. The **API** was delivered in a **JSON**, consisting of an array of objects, with various movie properties, such as **_movie poster images, vote ratings, movie description, etc..._**
+
+I also added a **_CSS animations_** to the web app for visual effects.
+
+## Web Technologies used:
+###**Front-end:**
+**HTML5**
+**CSS3**
+**JavaScript**
+**Bootstrap**
+**jQuery**
+**AngularJS (Directives, Module, Controller, Service, Filter)**
+**Google Fonts: Open Sans & Ranchers**
+###**Back-end:**
+**Third Party API**
+**RESTful application**
+**HTTP request/response**
+
+#Screenshots:
+
 ![mnp ss1](https://user-images.githubusercontent.com/24735848/32697349-7d084082-c743-11e7-8c09-635c8f51e4b9.png)
 
 ![mnp ss2](https://user-images.githubusercontent.com/24735848/32697350-7d20d64c-c743-11e7-8175-6d74206cae9b.png)
@@ -15,27 +41,3 @@
 ![mnp ss7](https://user-images.githubusercontent.com/24735848/32697355-7db89310-c743-11e7-89a5-4b596df664aa.png)
 
 ![mnp ss8](https://user-images.githubusercontent.com/24735848/32697356-7dd4b50e-c743-11e7-99b3-d7dea57fe1dd.png)
-
-## Technologies:
-#### • HTML5
-#### • CSS3
-#### • JavaScript
-#### • Bootstrap
-#### • jQuery
-#### • AngularJS (Directives, Module, Controller, Service, Filter)
-#### • Google Fonts: Open Sans & Ranchers
-#### • Third Party API
-#### • RESTful application
-#### • HTTP request/response
-
-### This is my second project at Redwood Code Academy.
-
-I designed a web application, to display the current list of movies that are "Now Playing" currently in movie theaters, showcase what I've learned in the second phase of the bootcamp, focusing on front-end and back-end development.
-
-The application was built using jQuery and AngularJS on the front-end. The back-end part of the project utilizes RESTful API's to request information from the movie database and return a response via JSON with the movie properties for each film.
-
-I designed two dropdown menus to filter the movie list by category or vote rating.
-
-I signed up for an API key from TheMovieDatabase.com to access the API that I needed to request the movies that are currently playing in the movie theaters. The API was delivered in a JSON file format, consisting of an array of objects, with various movie properties, such as movie poster images, vote ratings, movie description, etc...
-
-I also added a CSS animations file to add animation effects to my web app.

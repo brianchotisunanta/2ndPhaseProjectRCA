@@ -24,6 +24,8 @@ I also added a **_CSS animations_** to the web app for visual effects.
 * **_RESTful application_**
 * **_HTTP request/response_**
 
+
+
 ## What does my web app do:
 
 My app displays a list of movies that are currently playing in movie theaters.

@@ -27,10 +27,13 @@ I also added a **_CSS animations_** to the web app for visual effects.
 
 
 ## What does my web app do:
-
 My app displays a list of movies that are currently playing in movie theaters.
+
 Each movie is displayed with its poster artwork, movie name, movie released date, and movie description.
+
 You are able to filter the list of movies based on vote average and genre categories.
+
+As you filter based on vote average and/or genre, movies are either added or deleted from the list that is displayed
 
 
 

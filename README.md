@@ -27,9 +27,9 @@ I also added a **_CSS animations_** to the web app for visual effects.
 
 
 ## What does my web app do:
-My app makes a **_request_** to the **movie API** and the **API** sends a **_response_** with a JSON containing the **movie properties**, which displays a list of movies that are currently playing in movie theaters.
+My app makes a **_request_** to the **movie API** and the **API** sends a **_response_** with a **JSON** containing the **movie properties**, which displays a list of movies that are currently playing in movie theaters.
 
-Each movie is displayed with the following **movie properties:** _poster artwork, movie name, movie released date, and movie description._
+Each movie is displayed with the following **movie properties:** **_poster artwork, movie name, movie released date,_** and **_movie description._**
 
 You are able to **filter** the list of movies with the dropdown menus, based on **vote average** and **genre** categories.
 

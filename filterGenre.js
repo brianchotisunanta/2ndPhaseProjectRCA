@@ -12,7 +12,7 @@ app.filter("filterGenre", function() {
   // still inside movie for loop:
         var movieMatched = false;   // doesn't show movie list
   // If genre is empty OR vote average is empty, show movie names on list:
-          if (genre == '' && voteAverageRating == '') {   // was || but changed to &&
+          if (genre == '' || voteAverageRating == '') {   // was || but changed to &&
               movieMatched = true;    // shows movie list
           }
   // for-loop thru genre_id inside movie for-loop:

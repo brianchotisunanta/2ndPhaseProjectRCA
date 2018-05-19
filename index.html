@@ -20,9 +20,12 @@
 
 <!-- Animation CSS -->
 <link rel="stylesheet" href="./stylesheets/animations1.css">
+<link rel="stylesheet" href="./stylesheets/animate.css">
 
 <!-- jQuery -->
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
 
 <!-- Angular CDN 1.5.7 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
@@ -36,9 +39,14 @@
     <h1>Movies Now Playing</h1>
 </div>
 
+<div class="yellow-bar animated infinite flash" style="background-color: yellow;height: 53px;margin: 50px 0;"></div>
+
+<div class="blue-bar animated infinite flash" style="background-color: #00ccff;height: 53px;margin: 50px 0;"></div>
+
 <!--Movie names-->
-<div class="col-md-12">
-  <ul class="movie-names text-center fadeIn">
+<div class="movie-name-div col-md-12" style="border: 5px solid yellow;border-radius: 10px;padding: 10px;">
+  <h2 class="text-center" style="color: #00ccff;">Now Showing in Theaters:</h2>
+  <ul class="movie-names text-center">
     <li ng-repeat="movie in movies | filterGenre: movieGenres: selected"> {{ movie.title }} </li>
     <!--ng-repeat on list tag -->
     <!-- Added filter here ; custom filter name = filterGenre with ng-model = movieGenres-->
@@ -51,7 +59,7 @@
 
 <!--Vote Average Dropdown menu:-->
 <div class="col-md-6 text-center vote-average fadeIn">
-    <h2>Vote Average</h2>
+    <h2 class="vote-average animated infinite flip">Vote Average</h2>
     <select class="vote-average-dropdown" ng-model="selected">      <!-- selected = named whatever you want -->
         <option value=""></option>
         <option value="1">1</option>
@@ -70,7 +78,7 @@
 
 <!--Genre Dropdown menu-->
 <div class="col-md-6 text-center movie-genre fadeIn">
-    <h2>Genre</h2>
+    <h2 class="movie-genre animated infinite flip">Genre</h2>
     <select class="movie-genre-dropdown" ng-model="movieGenres">     <!-- movieGenres = named whatever you want -->
         <option value=""></option>
         <option value="28">Action</option>
@@ -102,16 +110,14 @@
         <img class="movie-posters" src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}" >
         <h2 class="movie-titles text-center"> {{  movie.title }} </h2>
         <p class="release-date text-center">Released on: {{ movie.release_date | date:'longDate' }} </p>
-        <p class="text-center"> {{ movie.overview }} </p>
+        <p class="movie-overview text-center"> {{ movie.overview }} </p>
     </div>
 </div>
 
-<div class="footer text-center slideLeft">
-  <span class="text-center" style="padding-right: 195px;">Designed by Brian Chotisunanta</span>
-  <span class="pull-left" style="padding-left: 11px;"><strong style="color: #E74C3C"> Redwood Code Academy</strong>: 2nd Project</span>
-  <span class="pull-right" style="padding-right: 11px;">June 2017</span>
+<div class="footer text-center">
+  <span class="text-center">Designed by Brian Chotisunanta</span>
+  <span class="text-center clearfix">June 2017</span>
 </div>
-
 
 
 <script src="./environment.js"></script>

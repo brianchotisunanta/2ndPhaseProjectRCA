@@ -38,18 +38,31 @@ As you filter based on **vote average** and/or **genre**, movies are either **_a
 
 # Screenshots: :smile: :smile: :smile:
 
-![mnp ss1](https://user-images.githubusercontent.com/24735848/32697349-7d084082-c743-11e7-8c09-635c8f51e4b9.png)
+**Desktop screenshots:**
 
-![mnp ss2](https://user-images.githubusercontent.com/24735848/32697350-7d20d64c-c743-11e7-8175-6d74206cae9b.png)
+![screen shot 2018-05-23 at 3 25 12 am](https://user-images.githubusercontent.com/24735848/40419826-61a03a22-5e3b-11e8-8d86-c4388235536b.png)
+![screen shot 2018-05-23 at 3 25 33 am](https://user-images.githubusercontent.com/24735848/40419827-61ce65e6-5e3b-11e8-922a-7356132d28e7.png)
+![screen shot 2018-05-23 at 3 25 55 am](https://user-images.githubusercontent.com/24735848/40419828-61ef36f4-5e3b-11e8-91b7-2ed733384505.png)
+![screen shot 2018-05-23 at 3 26 07 am](https://user-images.githubusercontent.com/24735848/40419829-6209f4e4-5e3b-11e8-94bd-40c851bb5ad0.png)
+<img width="1680" alt="screen shot 2018-05-23 at 3 27 31 am" src="https://user-images.githubusercontent.com/24735848/40419830-62242012-5e3b-11e8-916a-3256bf842b5c.png">
+<img width="1680" alt="screen shot 2018-05-23 at 3 27 38 am" src="https://user-images.githubusercontent.com/24735848/40419832-623dbb8a-5e3b-11e8-9a5d-e773a4e6d297.png">
+![screen shot 2018-05-23 at 3 28 06 am](https://user-images.githubusercontent.com/24735848/40419833-62576404-5e3b-11e8-9ca3-f6ae5ad121ff.png)
+![screen shot 2018-05-23 at 3 28 12 am](https://user-images.githubusercontent.com/24735848/40419834-6272efc6-5e3b-11e8-822b-7d3cda60bd50.png)
+![screen shot 2018-05-23 at 3 28 16 am](https://user-images.githubusercontent.com/24735848/40419835-6295e544-5e3b-11e8-8fea-78fb8027c4db.png)
+![screen shot 2018-05-23 at 3 28 23 am](https://user-images.githubusercontent.com/24735848/40419837-62c4c8d2-5e3b-11e8-891c-4e916104213d.png)
+![screen shot 2018-05-23 at 3 28 26 am](https://user-images.githubusercontent.com/24735848/40419838-62ea18da-5e3b-11e8-83ed-080f4685ce50.png)
+![screen shot 2018-05-23 at 3 28 30 am](https://user-images.githubusercontent.com/24735848/40419839-6316cee8-5e3b-11e8-84be-3687d028f0c2.png)
 
-![mnp ss3](https://user-images.githubusercontent.com/24735848/32697351-7d398336-c743-11e7-9563-82f1ba1e9969.png)
-
-![mnp ss4](https://user-images.githubusercontent.com/24735848/32697352-7d512752-c743-11e7-97c9-ebb459c43f19.png)
-
-![mnp ss5](https://user-images.githubusercontent.com/24735848/32697353-7d6847a2-c743-11e7-8d3d-d7a817106a3c.png)
-
-![mnp ss6](https://user-images.githubusercontent.com/24735848/32697354-7d7f857a-c743-11e7-83b9-7e79e8a19c2e.png)
-
-![mnp ss7](https://user-images.githubusercontent.com/24735848/32697355-7db89310-c743-11e7-89a5-4b596df664aa.png)
-
-![mnp ss8](https://user-images.githubusercontent.com/24735848/32697356-7dd4b50e-c743-11e7-99b3-d7dea57fe1dd.png)
+**Mobile (Responsive) screenshots:**
+![screen shot 2018-05-23 at 3 29 33 am](https://user-images.githubusercontent.com/24735848/40419842-635482c4-5e3b-11e8-8a8d-d66bd379fdcb.png)
+![screen shot 2018-05-23 at 3 29 50 am](https://user-images.githubusercontent.com/24735848/40419844-6385585e-5e3b-11e8-8881-4e2728c5eee8.png)
+![screen shot 2018-05-23 at 3 29 57 am](https://user-images.githubusercontent.com/24735848/40419845-63b264fc-5e3b-11e8-9b9e-5dc68edd7017.png)
+<img width="1680" alt="screen shot 2018-05-23 at 3 30 32 am" src="https://user-images.githubusercontent.com/24735848/40419846-63ddb828-5e3b-11e8-975f-f64f121d43f1.png">
+<img width="1680" alt="screen shot 2018-05-23 at 3 30 35 am" src="https://user-images.githubusercontent.com/24735848/40419847-6438c466-5e3b-11e8-98a8-755ec2139666.png">
+![screen shot 2018-05-23 at 3 30 46 am](https://user-images.githubusercontent.com/24735848/40419848-64686ee6-5e3b-11e8-8968-8084328401fb.png)
+![screen shot 2018-05-23 at 3 37 53 am](https://user-images.githubusercontent.com/24735848/40419851-6494b258-5e3b-11e8-9a78-3f078f0da4fd.png)
+![screen shot 2018-05-23 at 3 37 56 am](https://user-images.githubusercontent.com/24735848/40419852-64b33b24-5e3b-11e8-9991-67cabcb6f98e.png)
+![screen shot 2018-05-23 at 3 40 28 am](https://user-images.githubusercontent.com/24735848/40419854-64da365c-5e3b-11e8-84ef-bc7380cf407f.png)
+![screen shot 2018-05-23 at 3 40 39 am](https://user-images.githubusercontent.com/24735848/40419855-64f4cee0-5e3b-11e8-821c-f64abb552886.png)
+![screen shot 2018-05-23 at 3 40 44 am](https://user-images.githubusercontent.com/24735848/40419856-651a9aee-5e3b-11e8-92d5-b35db9135f8b.png)
+![screen shot 2018-05-23 at 3 40 57 am](https://user-images.githubusercontent.com/24735848/40419857-6539a826-5e3b-11e8-95c6-3d17fca4d9d2.png)

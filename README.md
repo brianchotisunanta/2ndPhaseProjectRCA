@@ -54,6 +54,7 @@ As you filter based on **vote average** and/or **genre**, movies are either **_a
 ![screen shot 2018-05-23 at 3 28 30 am](https://user-images.githubusercontent.com/24735848/40419839-6316cee8-5e3b-11e8-84be-3687d028f0c2.png)
 
 **Mobile (Responsive) screenshots:**
+
 ![screen shot 2018-05-23 at 3 29 33 am](https://user-images.githubusercontent.com/24735848/40419842-635482c4-5e3b-11e8-8a8d-d66bd379fdcb.png)
 ![screen shot 2018-05-23 at 3 29 50 am](https://user-images.githubusercontent.com/24735848/40419844-6385585e-5e3b-11e8-8881-4e2728c5eee8.png)
 ![screen shot 2018-05-23 at 3 29 57 am](https://user-images.githubusercontent.com/24735848/40419845-63b264fc-5e3b-11e8-9b9e-5dc68edd7017.png)

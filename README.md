@@ -35,6 +35,13 @@ You are able to **filter** the list of movies with the **dropdown menus**, based
 
 As you filter based on **vote average** and/or **genre**, movies are either **_added_** or **_deleted_** from the movie list.
 
+## How to run my app:
+1. Type the following in the **terminal**:
+2. **cd** into my **directory (folder)** containing my app.
+3. **ls** until you see **index.html**
+4. type: **http-server**
+5. open **chrome browser** at: **http://localhost:8080/**
+
 
 # Screenshots: :smile: :smile: :smile:
 

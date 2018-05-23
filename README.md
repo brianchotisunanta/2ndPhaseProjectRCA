@@ -45,7 +45,7 @@ As you filter based on **vote average** and/or **genre**, movies are either **_a
 
 # Screenshots: :smile: :smile: :smile:
 
-**Desktop screenshots:**
+##_Desktop screenshots:_
 
 ![screen shot 2018-05-23 at 3 25 12 am](https://user-images.githubusercontent.com/24735848/40419826-61a03a22-5e3b-11e8-8d86-c4388235536b.png)
 ![screen shot 2018-05-23 at 3 25 33 am](https://user-images.githubusercontent.com/24735848/40419827-61ce65e6-5e3b-11e8-922a-7356132d28e7.png)
@@ -60,7 +60,7 @@ As you filter based on **vote average** and/or **genre**, movies are either **_a
 ![screen shot 2018-05-23 at 3 28 26 am](https://user-images.githubusercontent.com/24735848/40419838-62ea18da-5e3b-11e8-83ed-080f4685ce50.png)
 ![screen shot 2018-05-23 at 3 28 30 am](https://user-images.githubusercontent.com/24735848/40419839-6316cee8-5e3b-11e8-84be-3687d028f0c2.png)
 
-**Mobile (Responsive) screenshots:**
+##_Mobile (Responsive) screenshots:_
 
 ![screen shot 2018-05-23 at 3 29 33 am](https://user-images.githubusercontent.com/24735848/40419842-635482c4-5e3b-11e8-8a8d-d66bd379fdcb.png)
 ![screen shot 2018-05-23 at 3 29 50 am](https://user-images.githubusercontent.com/24735848/40419844-6385585e-5e3b-11e8-8881-4e2728c5eee8.png)

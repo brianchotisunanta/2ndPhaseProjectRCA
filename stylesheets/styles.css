@@ -116,7 +116,7 @@ h2 {
 }
 
 .footer {
-  position: absolute;
+  position: relative;
   font-family: 'Ranchers', cursive;
   font-size: 20px;
   color: yellow;
